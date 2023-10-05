@@ -1,0 +1,38 @@
+[
+    {
+      "_key": "node_1_key",
+      "_from": "vertex_collection1/vertex_1",
+      "_to": "vertex_collection1/vertex_2",
+      "protocol": "IS-IS Level 1",
+      "local_link_id": 5,
+      "remote_link_id": 3,
+      "local_link_ip": "2001:1:1:1::85",
+      "remote_link_ip": "2001:1:1:1::121",
+      "local_node_asn": 65000,
+      "remote_node_asn": 65000
+    },
+    {
+        "_key": "node_2_key",
+        "_from": "vertex_collection1/vertex_2",
+        "_to": "vertex_collection1/vertex_3",
+        "protocol": "IS-IS Level 1",
+        "local_link_id": 6,
+        "remote_link_id": 7,
+        "local_link_ip": "2001:1:1:1::75",
+        "remote_link_ip": "2001:1:1:1::11",
+        "local_node_asn": 65000,
+        "remote_node_asn": 65000
+      },
+      {
+        "_key": "node_3_key",
+        "_from": "vertex_collection1/vertex_3",
+        "_to": "vertex_collection1/vertex_1",
+        "protocol": "IS-IS Level 1",
+        "local_link_id": 8,
+        "remote_link_id": 9,
+        "local_link_ip": "2001:1:1:1::8",
+        "remote_link_ip": "2001:1:1:1::9",
+        "local_node_asn": 65000,
+        "remote_node_asn": 65000
+      }
+]
